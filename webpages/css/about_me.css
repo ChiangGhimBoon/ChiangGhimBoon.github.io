@@ -1,0 +1,17 @@
+@charset "utf-8";
+.imgcontainer {
+ display: grid; 
+ grid-template-columns: repeat(2,50%);
+ column-gap: 5px;
+}
+
+.image {
+  max-width: 50%;
+  max-height:50%;
+}
+
+.text {
+  font-size: 25px;
+  vertical-align: middle
+  text-align: center;
+}
