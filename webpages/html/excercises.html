@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>exercises</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="../css/index_final.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <video autoplay muted loop id="bgVideo">
+        <source src="../picture/Comp 1.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+    <div class="content">
+        <div class="myDiv">
+            <div class="dropdown">
+                <button class="dropbutton">
+                    <img class="menu" src="../picture/menu.png">
+                </button>
+                <div class="dropdown-content">
+                    <a href="about_me.html">About Me</a>
+                    <a href="excercises.html">Exercises</a>
+                    <a href="assignments.html">Assignments</a>
+                    <a href="final_projects.html">Final Projects</a>
+                    <a href="contact_me.html">Contact Me</a>
+                </div>
+            </div>
+            <h1 style="color: #66FCF1; margin: 0; padding: 15px">Exercises</h1>
+            <a href="../html/home.html"><img id="logo" src="../picture/fish_cyan.png"></a>
+          </div>
+        <div class="exercise-content">
+            <form>
+                <label for="week">Today's topic:</label>
+                <select name="week" id="week" onchange=exerciseContentByWeek()>
+                    <option value="1">2D CAD</option>
+                    <option value="2">3D CAD</option>
+                    
+                </select>
+            </form>
+            <div id="exercise">
+                <div>
+                    <h2>2D CAD</h2>
+                    <p>What is 2D CAD? Well, CAD stands for "Computer Aided Design". Through the use of computer softwares, you are able to create graphic designs or sketches. Softwares like Adobe Illustrator or Fusion 360 are some examples of commonly used softwares for designing or sketching.</p>
+                    <br>
+
+                    <h2>Excercise 1</h2>
+                    <p>For task 1, we needed to edit a photo of ourselves using GIMP. GIMP is a raster graphics editor used for image manipulation and image editing. We had to choose a picture of ourselves that we want to edit and just remove the background.</p>
+                    <br>
+
+                    <p>This is the picture that I have chosen to edit!</p>
+                    <img src="../picture/my pic cropped.jpg" >
+                    <br>
+
+                    <p>This is how the final picture looks like</p>
+                    <img src="../picture/edited pic.png" >
+                    <br>
+
+                    <h2>2D CAD</h2>
+                    <h2>Excercise 1</h2>
+                    <p>For the first excercise, we are going to sketch this using Fusion 360 as a form of practice.</p>
+                    <img src="../picture/Excercise 1 .png" >
+                    <br>
+
+                    <p>I started off by selecting a plane that I want to sketch on. Then I sketched out the excercise on the XY plane.</p>
+                    <br>
+
+                    <p>This is how the final sketch looks like after adding in the dimensions.</p>
+                    <img src="../picture/ex 1 done.png" >
+                    <br>
+
+                    <h2>Excercise 2</h2>
+                    <p>For the first excercise, we are once againg going to sketch this using Fusion 360 </p>
+                    <img src="../picture/Excercise 2 .png" >
+                    <br>
+
+                    <p>Following the previous excercise, I started off by selecting to sketch on the xy plane.</p>
+                    <br>
+
+                    <p>This is how the final sketch looks like after adding in the dimensions.</p>
+                    <img src="../picture/ex 2 done.png" >
+                    <br>
+
+                    <p>These shapes might look intimidating and confusing to draw, often times not knowing where you can start from. But once you break down the sketches into simple shapes like squares and circles, it will be much easier to start and draw.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/content_change.js"></script>
+    <script src="../js/videoplayer.js"></script>
+</body>
+
+</html>
